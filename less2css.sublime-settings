@@ -1,0 +1,16 @@
+{  
+  "autoCompile": true, //自动编译  
+  "createCssSourceMaps": false, //创建CSS代码地图，方便定位代码位置  
+  "ignorePrefixedFiles": false, //忽略文件的前缀  
+  "lessBaseDir": "./", //CSS文件生成路径，默认相对同级目录  
+  "lesscCommand": false, //是否使用lessc命令  
+  "main_file": false, //主文件  
+  "minify": false, //是否压缩  
+  "minName": false,  
+  "outputDir": "./", //输出公共路径  
+  "outputFile": "", //[example.css] if left blank uses same name of .less file  
+  "showErrorWithWindow": true, //显示错误窗口  
+  "autoprefix": false, //自动前缀  
+  "disableVerbose":false, //禁用详细  
+  "silent":false  
+}

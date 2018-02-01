@@ -1,0 +1,27 @@
+{
+	"font_size": 12,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"show_encoding": true,
+	"update_check": false,
+	"word_wrap": true,
+	"auto_complete_triggers":
+	[
+		{
+			"characters": " ",
+			"selector": "text.html"
+		}
+	],
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	// soft-tab 即用空格代表 tab 符
+	"tab_size": 2,
+	// 保存文件时，删除尾部的空白符
+	"trim_trailing_white_space_on_save": true,
+	// 设置文件编码为 UTF-8
+	"default_encoding": "UTF-8",
+	// 在按下标签时插入空格
+	"translate_tabs_to_spaces": true
+}
