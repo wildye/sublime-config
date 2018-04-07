@@ -65,4 +65,4 @@
 	功能简介：Bootstrap语法高亮
 	
 	插件名称：Color Highlighter
-功能简介：颜色高亮
+	功能简介：颜色高亮
