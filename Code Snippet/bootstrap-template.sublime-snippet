@@ -1,0 +1,32 @@
+<snippet>
+  <content><![CDATA[
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+  <meta  charset="UTF-8">
+  <title>${1}</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="lib/bootstrap-3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="lib/css/${2}">
+  <!--[if lt IE 9]>
+    <script src="lib/js/ie/html5shiv.min.js"></script>
+    <script src="lib/js/ie/respond.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+  <div class="container">
+    ${3}
+  </div>
+
+  <script src="lib/js/jquery-1.11.3.min.js"></script>
+  <script src="lib/bootstrap-3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>bootstrap</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>text.html.basic</scope>
+</snippet>

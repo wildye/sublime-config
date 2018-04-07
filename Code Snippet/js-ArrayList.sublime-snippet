@@ -1,0 +1,107 @@
+<snippet>
+	<content><![CDATA[
+Object.prototype.ArrayList = function(){
+    var arr = []; //用于保存数据的数组
+    var length = 0; //数组的长度，默认为0
+
+    /**
+     * [isEmpty 空判断]
+     * @return {Boolean} [是否为空]
+     */
+    this.isEmpty = function(){
+        return length == 0;
+    }
+
+    /**
+     * [size 获取数组长度]
+     * @return {[Number]} [数组长度]
+     */
+    this.size = function(){
+        return length;
+    }
+
+    /**
+     * [contains 判断对象中是否包含给定对象]
+     * @param  {[Object]}  obj [给定对象]
+     * @return {[Boolean]}     [是否包含]
+     */
+    this.contains = function(obj){
+        if(arr.indexOf(obj) != -1){
+            return true;
+        }
+        return false;
+    }
+
+   /**
+    * [add 新增]
+    * @param {[type]} obj [description]
+    */
+   this.add = function(obj){
+    length = length + 1;
+    arr.push(obj);
+   }
+
+   /**
+    * 删除
+    * 参数1  obj ： 需要删除的元素
+    * 参数2  deleteAll： 是否全部删除，否则默认删除第一个匹配项
+    */
+   this.remove = function(obj,deleteAll){
+        var len = arr.length;
+        for(var i = 0 ;i < len ;i++){
+            if(arr[i] == obj){
+                arr.splice(i,1);
+                length = length - 1;
+                if(!deleteAll){
+                    break;
+                }
+            }
+        }
+   }
+
+   /**
+    * 根据索引获取对应的元素
+    */
+   this.get = function(index){
+    if(index > length - 1){
+        return null;
+    }
+    return arr[index];
+   }
+
+   /**
+    * 获取列表数组
+    */
+   this.toArray = function(){
+     return arr;
+   }
+
+   /**
+    * 获取某一个元素的角标
+    * 如果只出现一次，就返回一个数字，如果大于一次，就返回数组
+    */
+   this.indexOf = function(obj){
+     var rstArr = [];
+     var count = 0;
+     for(var i = 0 ;i < length ;i++){
+        if(obj == arr[i]){
+            rstArr[count++] = i;
+        }
+     }
+     if(count == 1){
+        return rstArr[0];
+     }
+     return rstArr;
+   }
+
+   this.toString = function(){
+    return arr.toString();
+   }
+}
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>js.ArrayList</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>

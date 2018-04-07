@@ -1,0 +1,22 @@
+<snippet>
+	<content><![CDATA[
+// String.format 字符串格式化
+if(!String.prototype.format ){
+    String.prototype.format = function() {
+        var e = arguments;
+        return this.replace(/{(\d+)}/g,function(t, n) {
+            return typeof e[n] != "undefined" ? e[n] : t;
+        })
+    };
+}
+
+${1}
+// 使用示例
+var template = "今天的天气很{0},大家一起去{1}！";
+console.log(template.format("晴朗","郊游"));
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>js.format</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>

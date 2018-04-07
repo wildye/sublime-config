@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+try{
+	throw TypeError;
+	${1}
+}catch(e){
+	${2}
+}finally{
+	${3}
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>try</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>

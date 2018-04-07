@@ -1,0 +1,28 @@
+{
+	"bootstrapped": true,
+	"http_proxy": "http://127.0.0.1:1894",
+	"https_proxy": "http://127.0.0.1:1894",
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"A File Icon",
+		"Alignment",
+		"AutoFileName",
+		"Autoprefixer",
+		"Better Completion",
+		"Boxy Theme",
+		"ChineseLocalizations",
+		"Color Highlighter",
+		"ConvertToUTF8",
+		"CSScomb",
+		"DocBlockr",
+		"Emmet",
+		"JsFormat",
+		"LESS",
+		"Less2Css",
+		"Package Control",
+		"SideBarEnhancements"
+	]
+}

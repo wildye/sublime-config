@@ -1,0 +1,23 @@
+[
+
+	// 代码对齐
+    {
+    	"keys": ["ctrl+shift+a"], "command": "alignment"
+    },
+
+	// CSS 前缀补全
+    {
+    	"keys": ["ctrl+alt+p"], "command": "autoprefixer"
+    },
+
+    // CSS 格式化
+    {
+    	"keys": ["ctrl+shift+c"], "command": "css_comb"
+    },
+
+    // JS 格式化
+    {
+        "keys": ["ctrl+shift+c"], "command": "js_format",
+        "context": [{"key": "selector", "operator": "equal", "operand": "source.js,source.json"}]
+    }
+]

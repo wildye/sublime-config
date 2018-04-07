@@ -1,0 +1,19 @@
+{
+  // 代码补全
+  "completion_active_list": {
+
+    "html": true,
+
+    "css-properties": true,
+
+    "javascript": true,
+
+    "jquery": true,
+
+    "php": false,
+
+    "my-html": true,
+
+    "my-javascript": true
+  }
+}
