@@ -1,7 +1,7 @@
 <snippet>
 	<content><![CDATA[
 /**
- * [loadScript 无阻塞加载]
+ * [loadScript 异步载入]
  * @param  {[String]}   url      [路径]
  * @param  {[Function]} callback [回调函数]
  * @return {[Dom]}               [Script标签注入]

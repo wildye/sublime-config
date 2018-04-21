@@ -1,0 +1,30 @@
+<snippet>
+	<content><![CDATA[
+// 变量属性
+@import 'variables.less';
+
+// 默认样式重置
+@import 'reset.less';
+
+// 可复用类模块
+@import 'module.less';
+
+// 基本公用样式
+@import 'base.less';
+
+// 布局、版面
+@import 'layout.less';
+
+// 实现换肤功能时应用
+@import 'themes.less';
+
+// 基于以上样式进行的私有化修补
+@import 'mend.less';
+
+${1}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>less.master</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.less,source.sass</scope>
+</snippet>

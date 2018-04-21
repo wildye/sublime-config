@@ -4,16 +4,15 @@
 if(!String.prototype.format ){
     String.prototype.format = function() {
         var e = arguments;
-        return this.replace(/{(\d+)}/g,function(t, n) {
+        return this.replace(/\${(\d+)}/g,function(t, n) {
             return typeof e[n] != "undefined" ? e[n] : t;
         })
     };
 }
 
-${1}
 // 使用示例
-var template = "今天的天气很{0},大家一起去{1}！";
-console.log(template.format("晴朗","郊游"));
+var template = "世界如此${0}，你却如此${1}！";
+console.log(template.format("美妙","暴躁")); // => 世界如此美妙，你却如此暴躁！
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>js.format</tabTrigger>

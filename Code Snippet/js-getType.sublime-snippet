@@ -1,0 +1,23 @@
+<snippet>
+	<content><![CDATA[
+// 获取数据类型
+if (!Object.prototype.getType) {
+  Object.prototype.getType = function() {
+    var me = this;
+    if(arguments.length == 1) me = arguments[0];
+    var type = Object.prototype.toString.call(me);
+    return type.slice(8, -1).toLowerCase();
+  }
+}
+
+// 使用示例
+console.log(getType(null));          // -> null
+console.log(getType(undefined));     // -> undefined
+console.log([].getType());           // -> array
+console.log({}.getType());           // -> object
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>js.getType</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>

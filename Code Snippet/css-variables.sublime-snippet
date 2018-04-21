@@ -1,0 +1,30 @@
+<snippet>
+	<content><![CDATA[
+//- 设备尺寸
+
+@xs: 480px;
+@sm: 768px;
+@md: 992px;
+@lg: 1200px;
+
+
+//- 栅格
+
+// 栅格数
+@grid-count: 12;
+// 容器名
+@container: ~"container";
+// 行名
+@row: ~"row";
+// 列名
+@col-name: ~"col";
+// 列边距
+@col-padding: 15px;
+
+${1}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>css.variables</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.less,source.sass</scope>
+</snippet>

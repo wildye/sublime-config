@@ -1,0 +1,73 @@
+<snippet>
+	<content><![CDATA[
+var eventHelper = {
+    // 绑定事件
+    addEvent:function(el,type,handler){
+        if(el.addEventListener){
+            el.addEventListener(type,handler,false);
+        }else if(el.attachEvent){
+            el.attachEvent('on' + type,handler);
+        }else{
+            el['on' + type] = handler;
+        }
+    },
+    // 解绑事件
+    removeEvent:function(el,type,handler){
+        if(el.removeEventListener){
+            el.removeEventListener(type,handler,false);
+        }else if(el.detachEvent){
+            el.detachEvent('on' + type,handler);
+        }else{
+            el['on' + type] = null;
+        }
+    },
+    // 获取事件对象
+    getEvent:function(e){
+        return e ? event : window.event;
+    },
+    // 获取事件类型
+    getType:function(e){
+        return e.type
+    },
+    // 获取事件元素
+    getElement:function(el){
+        return el.target || el.srcElement;
+    },
+    // 阻止事件默认行为
+    preventDefault:function(e){
+        if(e.preventDefault){
+            e.preventDefault();
+        }else{
+            e.returnValue = false;
+        }
+    },
+    // 阻止事件冒泡
+    stopPropagation:function(e){
+        if(e.stopPropagation){
+            e.stopPropagation();
+        }else{
+            e.cancelBubble = true;
+        }
+    }
+}
+
+// 使用示例
+var login = document.getElementById('btn');
+// 绑定事件
+eventHelper.addEvent(login, 'click', function(e){
+    preventDefault(e); // 阻止默认行为
+    stopPropagation(e); // 阻止冒泡
+    getEvent(e); // 获取事件对象
+    getType(e); // 获取事件类型
+    getElement(e); // 获取事件元素
+})
+// 解绑事件
+eventHelper.removeEvent(login, 'click', function(){})
+
+${1}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>js.eventHelper</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>
