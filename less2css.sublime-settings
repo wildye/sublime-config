@@ -25,7 +25,7 @@
   "minName": false,
 
   //输出公共路径
-  "outputDir": "./",
+  "outputDir": "./static/css",
 
   //[example.css] if left blank uses same name of .less file
   "outputFile": "",
