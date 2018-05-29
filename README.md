@@ -1,6 +1,8 @@
-#User Config
+User Config
+=
 
 - 自定义配置 Preferences
+
 
 ``` javascript
 {
@@ -70,8 +72,10 @@
 ]
 ```
 
-#Package
-##功能扩展
+Package
+=
+
+## 功能扩展
 
 1. **ChineseLocalizations**
 语言支持 简体中文、繁体中文、日语、英语
@@ -82,7 +86,7 @@
 3. **Less2Css**
 less编译生成css
 
-##代码补全
+## 代码补全
 
 1. **Emmet**
 html标签代码补全，多标签缩写
@@ -102,7 +106,7 @@ CSS3 私有前缀自动补全
 注释代码块
 `/** + Enter`
 
-##代码格式化
+## 代码格式化
 
 1. **Alignment**
 代码对齐
@@ -119,7 +123,7 @@ CSS格式化及自定义排序
 JS格式化
 `Ctrl + Shift + C`
 
-##视觉
+## 视觉
 
 1. **A File Icon**
 文件图标标识
