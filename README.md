@@ -15,9 +15,10 @@
     插件名称：Emmet
     功能简介：html标签代码补全，多标签缩写
     语法：
-    后代	兄弟	上级	分组	乘法	自增	ID和类	自定义属性
-    >	+	^	()	*	$	#id.class	p[nck='1']
-    更多： https://www.w3cplus.com/tools/emmet-cheat-sheet.html
+    | 后代 | 同级 | 父级 | 分组 | 乘法    | 自增 | ID和类 | 自定义属性
+| --- | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+| `>`   | `+` | `^` | `()` | `*` | `$` | `#id.class` | `p[nck='1']` |
+    API： https://www.w3cplus.com/tools/emmet-cheat-sheet.html
 
     插件名称：AutoFileName
     功能简介：快捷输入文件名
