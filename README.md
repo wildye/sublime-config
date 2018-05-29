@@ -1,7 +1,7 @@
 User Config
 =
 
-- 自定义配置 Preferences
+## 自定义配置 Preferences
 
 
 ``` javascript
@@ -45,7 +45,7 @@ User Config
 
 ```
 
-- 快捷键 keymap
+## 快捷键 keymap
 
 ``` javascript
 [
@@ -77,62 +77,62 @@ Package
 
 ## 功能扩展
 
-1. **ChineseLocalizations**
+1. **ChineseLocalizations**<br>
 语言支持 简体中文、繁体中文、日语、英语
 
-2. **SideBarEnhancements**
+2. **SideBarEnhancements**<br>
 侧边栏增强
 
-3. **Less2Css**
+3. **Less2Css**<br>
 less编译生成css
 
 ## 代码补全
 
-1. **Emmet**
-html标签代码补全，多标签缩写
+1. **Emmet**<br>
+html标签代码补全，多标签缩写<br>
 API： https://www.w3cplus.com/tools/emmet-cheat-sheet.html
 
-2. **AutoFileName**
+2. **AutoFileName**<br>
     功能简介：快捷输入文件名
 
-3. **AutoPrefixer**
-CSS3 私有前缀自动补全
+3. **AutoPrefixer**<br>
+CSS3 私有前缀自动补全<br>
 `Ctrl + Alt + P`
 
-4. **Better Completion**
+4. **Better Completion**<br>
 代码补全
 
-5. **DocBlock**
-注释代码块
+5. **DocBlock**<br>
+注释代码块<br>
 `/** + Enter`
 
 ## 代码格式化
 
-1. **Alignment**
-代码对齐
+1. **Alignment**<br>
+代码对齐<br>
 `Ctrl + Alt + A`
 
-2. **ConvertToUTF8**
+2. **ConvertToUTF8**<br>
 编码转换为UTF8
 
-3. **CSScomb**
-CSS格式化及自定义排序
+3. **CSScomb**<br>
+CSS格式化及自定义排序<br>
 `Ctrl + Shift + C`、`右键 -> Run CSScomb`
 
-4. **Js Format**
-JS格式化
+4. **Js Format**<br>
+JS格式化<br>
 `Ctrl + Shift + C`
 
 ## 视觉
 
-1. **A File Icon**
+1. **A File Icon**<br>
 文件图标标识
 
-2. **Color Highlighter**
+2. **Color Highlighter**<br>
 颜色高亮
 
-3. **LESS**
+3. **LESS**<br>
 LESS语法高亮
 
-4. **Bootstrap**
+4. **Bootstrap**<br>
 Bootstrap语法高亮
