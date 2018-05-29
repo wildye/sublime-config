@@ -1,36 +1,16 @@
 {
-	// 主题
-	"theme": "Boxy Monokai.sublime-theme",
-
-	// 配色方案
 	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
-
-	// 更新验证
-	"update_check": false,
-
-	// 缩进
-	"tab_size": 4,
-
-	// 字体大小
-	"font_size": 12,
-
-	// 显示文件编码
-	"show_encoding": true,
-
-	// 高亮当前行
-	"highlight_line": true,
-
-	// 高亮选择标签
-	"highlight_modified_tabs": true,
-
-	// 保存文件时，尾部追加空行
 	"ensure_newline_at_eof_on_save": true,
-
-	// 保存文件时，删除尾部的空白符
-	"trim_trailing_white_space_on_save": true,
-
+	"font_size": 12,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
 		"Vintage"
-	]
+	],
+	"show_encoding": true,
+	"tab_size": 4,
+	"theme": "Boxy Monokai.sublime-theme",
+	"trim_trailing_white_space_on_save": true,
+	"update_check": false
 }
