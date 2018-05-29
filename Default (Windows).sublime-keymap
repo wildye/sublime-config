@@ -1,5 +1,4 @@
 [
-
 	// 代码对齐
     {
     	"keys": ["ctrl+shift+a"], "command": "alignment"
