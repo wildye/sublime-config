@@ -1,5 +1,5 @@
 # sublime-config
-1. 功能扩展
+##1. 功能扩展
 
     插件名称：ChineseLocalizations
     功能简介：语言支持 简体中文、繁体中文、日语、英语
@@ -10,7 +10,7 @@
     插件名称：Less2Css
     功能简介：less编译生成css
 
-2. 代码补全
+##2. 代码补全
 
     插件名称：Emmet
     功能简介：html标签代码补全，多标签缩写
@@ -34,7 +34,7 @@
     功能简介：注释代码块
     快捷键：/** + Enter
 
-3. 代码格式化
+##3. 代码格式化
 
     插件名称：Alignment
     功能简介：代码对齐
@@ -51,7 +51,7 @@
     功能简介：JS格式化
     快捷键：Ctrl + Shift + C
 
-4. 视觉
+##4. 视觉
 
     插件名称：A File Icon
     功能简介：文件图标标识
@@ -71,7 +71,7 @@
 
 #User Config
 
-1. Preferences
+##1. Preferences
 - 自定义配置
 
 ``` javascript
@@ -115,7 +115,7 @@
 
 ```
 
-2. keymap
+##2. keymap
 - 快捷键
 
 ``` javascript
