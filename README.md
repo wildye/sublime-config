@@ -1,22 +1,21 @@
-#User Config
+User Config
+=
 
-- 自定义配置 Preferences
+## 1. 自定义配置 Preferences
+
 
 ``` javascript
 {
-    // 主题路径
+    // 配色方案
     "color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
 
     // 主题
     "theme": "Boxy Monokai.sublime-theme",
 
-    // 自动保存
-    "ensure_newline_at_eof_on_save": true,
-
     // 字体大小
     "font_size": 12,
 
-    // 高亮光标所在行
+    // 高亮当前行
     "highlight_line": true,
 
     // 高亮未保存文件
@@ -25,16 +24,19 @@
     // 显示文件编码
     "show_encoding": true,
 
-    // 缩进
+    // 制表符缩进数
     "tab_size": 4,
 
-    // 设置使用空格缩进
+    // 制表符缩进转换为空格
     "translate_tabs_to_spaces": true,
 
-    // 设置保存时自动转换
+    // 自动将制表符缩进转换为空格
     "expand_tabs_on_save": true,
 
-    // 清除行尾多余空格
+    // 自动保留文件末尾空行
+    "ensure_newline_at_eof_on_save": true,
+
+    // 自动移除行尾多余空格
     "trim_trailing_white_space_on_save": true,
 
     // 自动更新
@@ -43,7 +45,7 @@
 
 ```
 
-- 快捷键 keymap
+## 2. 快捷键 keymap
 
 ``` javascript
 [
@@ -70,65 +72,67 @@
 ]
 ```
 
-#Package
-##功能扩展
+Package
+=
 
-1. **ChineseLocalizations**
+## 1. 功能扩展
+
+- **ChineseLocalizations**<br>
 语言支持 简体中文、繁体中文、日语、英语
 
-2. **SideBarEnhancements**
+- **SideBarEnhancements**<br>
 侧边栏增强
 
-3. **Less2Css**
+- **Less2Css**<br>
 less编译生成css
 
-##代码补全
+## 2. 代码补全
 
-1. **Emmet**
-html标签代码补全，多标签缩写
+- **Emmet**<br>
+html标签代码补全，多标签缩写<br>
 API： https://www.w3cplus.com/tools/emmet-cheat-sheet.html
 
-2. **AutoFileName**
+- **AutoFileName**<br>
     功能简介：快捷输入文件名
 
-3. **AutoPrefixer**
-CSS3 私有前缀自动补全
+- **AutoPrefixer**<br>
+CSS3 私有前缀自动补全<br>
 `Ctrl + Alt + P`
 
-4. **Better Completion**
+- **Better Completion**<br>
 代码补全
 
-5. **DocBlock**
-注释代码块
+- **DocBlock**<br>
+注释代码块<br>
 `/** + Enter`
 
-##代码格式化
+## 3. 代码格式化
 
-1. **Alignment**
-代码对齐
+- **Alignment**<br>
+代码对齐<br>
 `Ctrl + Alt + A`
 
-2. **ConvertToUTF8**
+- **ConvertToUTF8**<br>
 编码转换为UTF8
 
-3. **CSScomb**
-CSS格式化及自定义排序
+- **CSScomb**<br>
+CSS格式化及自定义排序<br>
 `Ctrl + Shift + C`、`右键 -> Run CSScomb`
 
-4. **Js Format**
-JS格式化
+- **Js Format**<br>
+JS格式化<br>
 `Ctrl + Shift + C`
 
-##视觉
+## 4. 视觉
 
-1. **A File Icon**
+- **A File Icon**<br>
 文件图标标识
 
-2. **Color Highlighter**
+- **Color Highlighter**<br>
 颜色高亮
 
-3. **LESS**
+- **LESS**<br>
 LESS语法高亮
 
-4. **Bootstrap**
+- **Bootstrap**<br>
 Bootstrap语法高亮
