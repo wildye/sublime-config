@@ -1,7 +1,7 @@
 User Config
 =
 
-## 自定义配置 Preferences
+## 1. 自定义配置 Preferences
 
 
 ``` javascript
@@ -45,7 +45,7 @@ User Config
 
 ```
 
-## 快捷键 keymap
+## 2. 快捷键 keymap
 
 ``` javascript
 [
@@ -75,7 +75,7 @@ User Config
 Package
 =
 
-## 功能扩展
+## 1. 功能扩展
 
 1. **ChineseLocalizations**<br>
 语言支持 简体中文、繁体中文、日语、英语
@@ -86,7 +86,7 @@ Package
 3. **Less2Css**<br>
 less编译生成css
 
-## 代码补全
+## 2. 代码补全
 
 1. **Emmet**<br>
 html标签代码补全，多标签缩写<br>
@@ -106,7 +106,7 @@ CSS3 私有前缀自动补全<br>
 注释代码块<br>
 `/** + Enter`
 
-## 代码格式化
+## 3. 代码格式化
 
 1. **Alignment**<br>
 代码对齐<br>
@@ -123,7 +123,7 @@ CSS格式化及自定义排序<br>
 JS格式化<br>
 `Ctrl + Shift + C`
 
-## 视觉
+## 4. 视觉
 
 1. **A File Icon**<br>
 文件图标标识
