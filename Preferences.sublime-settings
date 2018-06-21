@@ -10,7 +10,7 @@
 		"Vintage"
 	],
 	"show_encoding": true,
-	"tab_size": 4,
+	"tab_size": 2,
 	"theme": "Boxy Monokai.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
